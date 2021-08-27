@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+iframe {
+    width: 100%;
+    height: inherit;
+}
+
+.navbar {
+    background-color: aliceblue;
+    width: 100%;
+    height: 15vh;
+}
+
+.main {
+    height: 85vh;
+    width: 100%;
+    background-color: rgb(136 200 200);
+    margin: 0%;
+}
+
+.card {
+    background-color: aliceblue;
+    width: 37%;
+    display: inline-block;
+    height: 30vh;
+    margin-inline-start: 8%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    border: 0.5mm solid black;
+    border-radius: 0.9em;
+    box-shadow: rgb(7 31 31 / 60%) 1vw 1.2vw 6px 0px;
+    overflow: hidden;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.card:hover {
+    background-color: #5cb3ff
+}
+
+@media screen and (max-width: 1440px) {
+    .card {
+        margin-top: 4%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .navbar {
+        height: 15vh;
+    }
+    .main {
+        height: 85vh;
+        width: 100%;
+        background-color: rgb(136 200 200);
+        margin: 0%;
+        overflow-y: scroll;
+    }
+    .card {
+        margin-top: 3%;
+        width: 88%;
+        margin-right: 0%;
+        margin-left: 6%;
+        height: 30vh;
+    }
+}
