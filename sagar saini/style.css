@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    background-color: aliceblue;
+    width: 100%;
+    height: 20vh;
+}
+
+.main {
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(136 200 200);
+}
+
+.button {
+    background-color: rgb(53, 106, 224);
+    height: 11vh;
+    width: 6vw;
+    text-transform: capitalize;
+    font-size: 3vh;
+    margin-inline: 13%;
+    margin-top: 5%;
+    box-shadow: rgb(7 31 31 / 60%) 0.7vw 0.6vw 15px 0px;
+    border: 0.4mm solid rgb(25, 25, 74);
+    border-radius: 0.6rem;
+    overflow: hidden;
+    font-family: 'Azeret Mono', monospace;
+}
+
+.button:hover {
+    background-color: rgb(25, 25, 74);
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 600;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Azeret Mono', monospace;
+}
+
+@media screen and (max-width: 1440px) {
+    .button {
+        background-color: #356ae0;
+        height: 11vh;
+        width: 16vw;
+        text-transform: capitalize;
+        font-size: 3vh;
+        margin-inline: 8%;
+        margin-top: 5%;
+        box-shadow: 0.7vw 0.6vw 15px 0px rgb(7 31 31 / 60%);
+        border: solid .4mm #19194a;
+        border-radius: .6rem;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        height: 20vh;
+    }
+    .main {
+        height: 80vh;
+    }
+    .button {
+        background-color: #356ae0;
+        height: 10vh;
+        width: 23vw;
+        text-transform: capitalize;
+        font-size: 3vh;
+        margin-inline: 13%;
+        margin-top: 5%;
+        box-shadow: 0.7vw 0.6vw 15px 0px rgb(7 31 31 / 60%);
+        border: solid .4mm #19194a;
+        border-radius: .6rem;
+        overflow: hidden;
+    }
+}
+
+/* on mobile display */
+
+@media screen and (max-width: 560px) {
+    .navbar {
+        height: 15vh;
+    }
+    .main {
+        height: 85vh;
+        margin: 0%;
+    }
+    .button {
+        background-color: #356ae0;
+        height: 5vh;
+        width: 30vw;
+        text-transform: capitalize;
+        font-size: 2vh;
+        margin-inline: 9%;
+        margin-top: 7%;
+        box-shadow: 0.7vw 0.6vw 15px 0px rgb(7 31 31 / 60%);
+        border: solid .4mm #19194a;
+        border-radius: .6rem;
+        overflow: hidden;
+    }
+}
