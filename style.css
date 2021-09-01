@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 25vh;
+}
+
+/* logo settings */
+
+#logo img {
+    height: 22vh;
+    height: 22vh;
+    clip-path: circle(61% at 38% 64%);
+    margin: 1%;
+    margin: 1%;
+}
+
+.main {
+    height: 75vh;
+    width: 100%;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+/*buttons styles */
+.button a{text-decoration: none;
+color: #fff;}
+
+.button {
+    width: 219px;
+    padding-top: 27px;
+    padding-bottom: 31px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-inline-start: 13%;
+    margin-top: 3%;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button-2 {
+    color: #fff;
+    border: 3px solid #7c7c7c;
+    background-image: -webkit-linear-gradient(30deg, #161616 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #3a3939 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+.button-2:hover {
+    background-position: 100%;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        height: 20vh;
+    }
+    #logo img {
+        height: 18vh;
+    }
+    .main {
+        height: 100%;
+    }
+    .button {
+        width: 202px;
+        padding-top: 20px;
+        padding-bottom: 24px;
+        text-align: center;
+        color: rgb(238, 238, 238);
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-inline-start: 9%;
+        margin-top: 5%;
+        cursor: pointer;
+        display: inline-block;
+    }
+}
+
+
+
+/* on mobile display */
+
+@media screen and (max-width: 560px) {
+    .navbar {
+        height: 15vh;
+    }
+    #logo img {
+        height: 13vh;
+    }
+    .main {
+        height: 100vh;
+        margin: 0%;
+    }
+    .button {
+        width: 123px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: rgb(238, 235, 235);
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-inline-start: 12%;
+        margin-top: 11%;
+        cursor: pointer;
+        height: 1vh;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 408px) {
+    .button {
+        width: 108px;
+        margin-inline-start: 9%;
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .button {
+        width: 108px;
+        margin-inline-start: 8%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .button {
+        width: 88px;
+        padding-top: 14px;
+        padding-bottom: 21px;
+        text-align: center;
+        color: rgb(238, 235, 235);
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-inline-start: 7%;
+        margin-top: 8%;
+        cursor: pointer;
+        height: 1vh;
+        display: inline-block;
+    }
+}
