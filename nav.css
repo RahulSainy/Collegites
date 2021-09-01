@@ -27,6 +27,17 @@
     display: none;
 }
 
+.icon{
+    background-image: url(https://i.ibb.co/yfPMF0g/collegites.png);
+    height: 20px;
+    width: 20px;
+    margin: 0.3% 1% 0.3% 1%;
+    background-size: cover;
+    clip-path: circle(50% at 50% 50%);
+
+}
+
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
@@ -34,6 +45,9 @@
     .topnav a.icon {
         float: right;
         display: block;
+    }
+    .logoimg{
+        display: none;
     }
 }
 
