@@ -16,9 +16,8 @@ header {
     box-shadow: 0px 9px 14px 5px #0a0808f2;
 }
 
-
 .logo {
-    margin-left :2%;
+    margin-left: 2%;
     height: 90%;
     /* width: 10%; */
 }
@@ -49,10 +48,12 @@ header {
     background-color: rgb(119, 78, 16);
     margin-right: 2%;
 }
-svg{
+
+svg {
     height: 100%;
     width: 100%;
 }
+
 main {
     text-align: center;
     /* display: flex; */
@@ -75,7 +76,8 @@ div.top {
     height: 100%;
 }
 
-main h2, .conatct h2 {
+main h2,
+.conatct h2 {
     line-height: 8vh;
     text-transform: uppercase;
     /* border-bottom: 2px linear-gradient; */
@@ -120,7 +122,7 @@ main h2, .conatct h2 {
     box-shadow: #09090966 4px 4px 10px 1px, #09090996 -5px 4px 14px 1px;
 }
 
-.box{
+.box {
     display: flex;
     margin-top: 4%;
 }
@@ -174,8 +176,7 @@ main h2, .conatct h2 {
 }
 
 @media screen and (max-width:800px) {
-
-    .box{
+    .box {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -183,26 +184,19 @@ main h2, .conatct h2 {
         justify-content: flex-start;
         align-items: center;
     }
-
     .box1 {
         width: 95%;
         height: 28vh;
         display: inline-block;
         margin: 2.5%;
         /* background-color: chocolate; */
-        overflow: hidden;}
-
-        .button {
-            height: 75px;
-            top: -2vh;}
-
-
-main{
-    height: 150vh;
-
+        overflow: hidden;
+    }
+    .button {
+        height: 75px;
+        top: -2vh;
+    }
+    main {
+        height: 150vh;
+    }
 }
-
-}
-
-
-
