@@ -54,7 +54,7 @@ main {
     text-align: center;
     /* display: flex; */
     position: relative;
-    height: 210vh;
+    height: 180vh;
     overflow-y: scroll;
     /* background-color: cadetblue; */
 }
@@ -92,8 +92,8 @@ main h2, .conatct h2 {
 }
 
 .box1 {
-    width: 95%;
-    height: 45vh;
+    width:  45%;
+    /* height: 26vh; */
     display: inline-block;
     margin: 2.5%;
     /* background-color: chocolate; */
@@ -109,12 +109,16 @@ main h2, .conatct h2 {
 
 .button {
     z-index: 22;
-    width: 60%;
-    height: 75px;
+    width: 72%;
+    height: 32px;
     position: relative;
-    top: -6vh;
+    top: -3vh;
     font-size: 1.2em;
     box-shadow: #09090966 4px 4px 10px 1px, #09090996 -5px 4px 14px 1px;
+}
+
+.box{
+    display: flex;
 }
 
 .contact {
@@ -165,6 +169,29 @@ main h2, .conatct h2 {
     float: right;
 }
 
-/* extra */
+@media screen and (max-width:800px) {
+
+    .box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: stretch;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .box1 {
+        width: 95%;
+        /* height: 45vh; */
+        display: inline-block;
+        margin: 2.5%;
+        /* background-color: chocolate; */
+        overflow: hidden;}
+
+        .button {
+            top: -6vh;
+
+    
+}
 
 
