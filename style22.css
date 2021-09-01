@@ -35,7 +35,8 @@ header {
 
 .logo {
     display: inline-block;
-    line-height: 2 em;
+    line-height: 2em;
+    float: right;
 }
 
 .htitle {
