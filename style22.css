@@ -37,8 +37,8 @@ main {
     /* display: flex; */
     position: relative;
     height: 70vh;
-    overflow-y: scroll;
-    /* background-color: cadetblue; */
+    /* overflow-y: scroll; */
+    background-color: #f1f1f1;
 }
 
 div.top {
