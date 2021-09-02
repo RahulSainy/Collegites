@@ -1,19 +1,25 @@
 *{
     margin: 0;padding: 0;
 }
-body{
+.body{
+    width: 100%;
+    height: 100%;
+    z-index: 8;
     background-image: url(https://www.w3schools.com/about/w3codes.png);
     background-size:cover;
-    /* position: fixed; */
+    position: fixed;
+    overflow-y: scroll;
 
 }
 header{
+    z-index: 12;
     background-color: aquamarine;
-    height: 10vh;
+    height: 16vh;
     width: 100%;
 
 }
 main {
+ height: 100vh;
    margin-top: 3%;
     text-align: center;
     color: white;
@@ -55,4 +61,32 @@ background-color: rgba(33, 190, 190, 0.787);
 #color4{
     background-color: rgba(0, 174, 255, 0.685);
     
+}
+
+@media screen and (max-with:650px) {
+
+header{
+    height: 10vh;
+}
+    main{
+        
+        font-size: 3vh;
+    }
+
+    .xbox{
+        flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .xbutton {
+        margin: 7% 6% 6% 6%;
+        padding: 5% 22% 5% 22%;
+        font-size: 5vh;
+        border: none;
+        background-color: violet;
+        border-radius: 0.1em;
+    }
 }
