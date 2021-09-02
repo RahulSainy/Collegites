@@ -95,10 +95,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    MARGIN: 0% 3% 0% 9%;
+    position: relative;
+    top: -5vh;
 }
 
 .wave-btn {
-    height: 60px;
+    height: 50px;
+    width: 240px;
     border-radius: 0 0 10px 10px;
     transition: all 0.8s ease 0s;
     text-decoration: none;
@@ -128,7 +132,11 @@
     top: -50px;
 }
 
-.wave-btn,
+/* .wave-btn,
+.wave-btn__waves {
+    width: 280px;
+} */
+
 .wave-btn__waves {
     width: 280px;
 }
@@ -173,4 +181,10 @@
     100% {
         transform: translate3d(-50%, -96%, 0) rotate(360deg) scale(1);
     }
+}
+@media screen and (max-width:600px) {
+
+.wave-btn {
+    margin-left: 18%;
+}
 }
