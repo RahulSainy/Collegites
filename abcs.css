@@ -1,0 +1,58 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-image: url(https://www.w3schools.com/about/w3codes.png);
+    background-size:cover;
+    /* position: fixed; */
+
+}
+header{
+    background-color: aquamarine;
+    height: 10vh;
+    width: 100%;
+
+}
+main {
+   margin-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 4vh;
+    width: 100%;
+
+}
+
+.xbox{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+}
+.xbutton{
+margin: 3% 6% 3% 6%;
+    padding: 4% 12% 4% 12%;
+    font-size: 5vh;
+    border: none;
+    background-color: violet;
+    border-radius: 0.1em;
+
+}
+#color1{
+background-color: rgba(33, 190, 190, 0.787);
+}
+#color2{
+    background-color: rgba(255, 255, 71, 0.685);
+    
+}
+#color3{
+    background-color: rgba(235, 97, 235, 0.746);
+
+    
+}
+#color4{
+    background-color: rgba(0, 174, 255, 0.685);
+    
+}
