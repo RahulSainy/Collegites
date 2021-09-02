@@ -1,9 +1,9 @@
 .topnav {
     overflow: hidden;
     background-color: #333;
-}
-
-.topnav a {
+  }
+  
+  .topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -11,169 +11,124 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-}
-
-.topnav a:hover {
+  }
+  
+  .topnav a:hover {
     background-color: #ddd;
     color: black;
-}
-
-.topnav a.active {
+  }
+  
+  .topnav a.active {
     background-color: #04AA6D;
     color: white;
-}
-
-.topnav .icon {
+  }
+  
+  .topnav .icon {
     display: none;
-}
-
-.logo {
-    margin: 0.3% 1.5% 0.3% 1%;
-    height: 42px;
-    /* width: 10%; */
-}
-
-.logoimg {
-    clip-path: circle(50% at 50% 50%);
-    width: 100%;
-    height: 100%;
-}
-
-.htitle {
-    color: rgb(20, 31, 93);
-    text-transform: capitalize;
-}
-
-.logo {
-    display: inline-block;
-    line-height: 2em;
-    float: right;
-}
-
-.icon {
-    /* background-image: url(https://css-tricks.com/wp-content/uploads/2012/10/threelines.png); */
-    height: 20px;
-    width: 20px;
-    margin: 0.3% 1% 0.3% 1%;
-    background-size: cover;
-    /* clip-path: circle(50% at 50% 50%); */
-}
-
-@media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {
-        display: none;
-    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
-        float: right;
-        display: block;
+      float: right;
+      display: block;
     }
-    .logoimg {
-        display: none;
-    }
-}
-
-
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ rs wave btn @@@@@@@@@@@@@@@@@@@@ */
-
-.wave-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -6%;
-    z-index: 22;
-    height: 60px;
-    border-radius: 0 0 10px 10px;
-    transition: all 0.8s ease 0s;
-    text-decoration: none;
-    overflow: hidden;
-}
-
-.wave-btn__text {
-    z-index: 1;
-    font-family: sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 8px;
-}
-
-.wave-btn,
-.wave-btn__text {
-    position: relative;
-}
-
-.wave-btn:hover {
-    border-radius: 10px;
-    transition: all 0.8s ease 0s;
-    box-shadow: 0 0 40px rgba(73, 115, 255, 0.6);
-}
-
-.wave-btn:hover .wave-btn__waves {
-    top: -50px;
-}
-
-.wave-btn,
-.wave-btn__waves {
-    width: 280px;
-}
-
-.wave-btn__waves {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 280px;
-    background-color: #4973ff;
-    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
-    transition: all 0.8s ease 0s;
-}
-
-.wave-btn__waves:after,
-.wave-btn__waves:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 250%;
-    height: 250%;
-    transform: translate3d(-50%, -96%, 0) rotate(0deg) scale(1);
-}
-
-.wave-btn__waves:before {
-    background-color: #000;
-    border-radius: 48%;
-    animation: waves 5s infinite linear;
-}
-
-.wave-btn__waves:after {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 44%;
-    animation: waves 10s infinite linear;
-}
-
-@keyframes waves {
-    0% {
-        transform: translate3d(-50%, -96%, 0) rotate(0deg) scale(1);
-    }
-    100% {
-        transform: translate3d(-50%, -96%, 0) rotate(360deg) scale(1);
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .topnav.responsive {
-        position: relative;
-    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
     }
     .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
+      float: none;
+      display: block;
+      text-align: left;
     }
-    /* .wave-btn {
-        width: 70%;
-        ;
-    } */
+  }
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ rs wave btn @@@@@@@@@@@@@@@@@@@@ */
+
+.wrapper {
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.wrapper,
+.wave-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wave-btn {
+	height: 60px;
+	border-radius: 0 0 10px 10px;
+	transition: all 0.8s ease 0s;
+	text-decoration: none;
+	overflow: hidden;
+}
+.wave-btn__text {
+	z-index: 1;
+	font-family: sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+.wave-btn,
+.wave-btn__text {
+	position: relative;
+}
+.wave-btn:hover {
+	border-radius: 10px;
+	transition: all 0.8s ease 0s;
+	box-shadow: 0 0 40px rgba(73, 115, 255, 0.6);
+}
+.wave-btn:hover .wave-btn__waves {
+	top: -50px;
+}
+.wave-btn,
+.wave-btn__waves {
+	width: 280px;
+}
+.wave-btn__waves {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 280px;
+	background-color: #4973ff;
+	box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+	transition: all 0.8s ease 0s;
+}
+.wave-btn__waves:after,
+.wave-btn__waves:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 250%;
+	height: 250%;
+	transform: translate3d(-50%, -96%, 0) rotate(0deg) scale(1);
+}
+.wave-btn__waves:before {
+	background-color: #000;
+	border-radius: 48%;
+	animation: waves 5s infinite linear;
+}
+.wave-btn__waves:after {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 44%;
+	animation: waves 10s infinite linear;
+}
+@keyframes waves {
+	0% {
+		transform: translate3d(-50%, -96%, 0) rotate(0deg) scale(1);
+	}
+	100% {
+		transform: translate3d(-50%, -96%, 0) rotate(360deg) scale(1);
+	}
 }
