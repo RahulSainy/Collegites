@@ -95,15 +95,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.wave-btn {
-    height: 60px;
+    margin-top: -6%;
+    z-index: 22;
+ height: 60px;
     border-radius: 0 0 10px 10px;
     transition: all 0.8s ease 0s;
     text-decoration: none;
     overflow: hidden;
 }
+
+
 
 .wave-btn__text {
     z-index: 1;
