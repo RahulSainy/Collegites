@@ -16,29 +16,6 @@ header {
     box-shadow: 0px 9px 14px 5px #0a0808f2;
 }
 
-.logo {
-    margin: 0.3% 1.5% 0.3% 1%;
-    height: 42px;
-    /* width: 10%; */
-}
-
-.logoimg {
-    clip-path: circle(50% at 50% 50%);
-    width: 100%;
-    height: 100%;
-}
-
-.htitle {
-    color: rgb(20, 31, 93);
-    text-transform: capitalize;
-}
-
-.logo {
-    display: inline-block;
-    line-height: 2em;
-    float: right;
-}
-
 .htitle {
     display: inline-block;
 }
@@ -155,8 +132,6 @@ main h2,
     background-color: rgb(34, 32, 70);
 }
 
-
-
 .info input {
     width: 92%;
     margin: 2% 6% 1% 2%;
@@ -173,58 +148,55 @@ main h2,
     float: right;
 }
 
-.info{
+.info {
     display: inline-block;
-    width:60%;
+    width: 60%;
 }
-.cimg{
+
+.cimg {
     margin-top: 3%;
     width: 30%;
     display: inline-block;
 }
-@media screen and (max-width:1440px){
 
-main{
-    height: 100vh;
+@media screen and (max-width:1440px) {
+    main {
+        height: 100vh;
+    }
+    .box1 {
+        width: 35%;
+        height: 42vh;
+        display: inline-block;
+        margin: auto;
+        /* background-color: chocolate; */
+        overflow: visible;
+    }
+    .button {
+        top: -7vh;
+    }
+    .img {
+        height: 70%;
+    }
+    .box {
+        display: flex;
+        margin-top: 4%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
-
-.box1{
-    width: 35%;
-    height: 42vh;
-    display: inline-block;
-    margin: auto;
-    /* background-color: chocolate; */
-    overflow: visible;
-}
-.button{
-    top: -7vh;
-}
-.img{
-    height: 70%;
-}
-
-.box {
-    display: flex;
-    margin-top: 4%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: space-between;
-    align-items: center;
-}
-
-}
-
 
 @media screen and (max-width:600px) {
-.img{
-    height: 60%;
-}
-
-main h2 , .contact h2 {
-margin-top: 5%;
-    font-size: 30px;
-}
+    .img {
+        height: 60%;
+    }
+    main h2,
+    .contact h2 {
+        margin-top: 5%;
+        font-size: 30px;
+    }
     .box {
         width: 100%;
         display: flex;
@@ -252,10 +224,9 @@ margin-top: 5%;
         width: 96%;
         margin: 0% 2% 1% 2%;
     }
-    .info{
+    .info {
         width: 96%;
     }
-
     #send {
         float: right;
         margin: 3% 5% 0% 0%;
@@ -265,5 +236,4 @@ margin-top: 5%;
         font-size: 13px;
         text-transform: uppercase;
     }
-
 }
