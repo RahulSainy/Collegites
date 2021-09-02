@@ -4,12 +4,12 @@
 }
 
 body {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
     z-index: 8;
     background-image: url(https://www.w3schools.com/about/w3codes.png);
     background-size: cover;
-    position: fixed;
+    /* position: fixed; */
     overflow-y: scroll;
 }
 
@@ -36,6 +36,7 @@ main {
     font-size: 4vh;
     width: 100%;
     backdrop-filter: blur(5px);
+    overflow: visible;
 }
 
 .xbox {
@@ -73,7 +74,7 @@ main {
 }
 
 #color2 {
-    background-color: rgba(255, 255, 71, 0.89);
+    background-color: rgba(13, 211, 76, 0.89);
 }
 
 #color3 {

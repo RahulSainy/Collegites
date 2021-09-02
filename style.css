@@ -74,46 +74,40 @@ main h2,
     text-decoration: underline 4px rgb(21, 34, 117);
 }
 
-.box1 {
+
+/* .box1 {
     width: 20%;
     height: 23vh;
     display: inline-block;
     margin: auto;
-    /* background-color: chocolate; */
     overflow: visible;
-    
-}
-.box1{
-/* width: 90%; */
-height: 40vh;
-display: flex;
-margin: 2.5%;
-/* background-color: chocolate; */
-overflow: hidden;
-flex-direction: column;
-align-items: center;
+} */
+
+.box1 {
+    height: 30vh;
+    display: flex;
+    margin: 2.5%;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
 }
 
 .img {
     width: 100%;
-    height: 80%;
+    height: 70%;
     background-color: cornflowerblue;
     z-index: 12;
-}
-
-.button {
-    z-index: 22;
-    width: 72%;
-    height: 60px;
-    position: relative;
-    top: -3vh;
-    font-size: 1.2em;
-    box-shadow: #09090966 4px 4px 10px 1px, #09090996 -5px 4px 14px 1px;
 }
 
 .box {
     display: flex;
     margin-top: 4%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contact {
@@ -229,7 +223,7 @@ align-items: center;
         top: -6vh;
     }
     main {
-        height: 150vh;
+        height: 200vh;
     }
     .cimg {
         width: 96%;
