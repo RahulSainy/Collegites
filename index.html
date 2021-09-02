@@ -5,114 +5,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <!-- nav code  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="nav.css">.
+    <script src="./js/nav.js" defer></script>
+    <!-- .............. -->
     <link rel="stylesheet" href="style.css">
+
     <title>Document</title>
+
+
 </head>
 
 <body>
-    <header class="top-header">
-        <nav class="navbar header-nav navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
-                    <ul class="navbar-nav">
-                        <li><a class="nav-link active" href="index.html">Home</a></li>
-                        <li><a class="nav-link" href="about.html">About</a></li>
-                        <li><a class="nav-link" href="courses.html">Courses</a></li>
-                        <li><a class="nav-link" href="reaserch.html">Reaserch</a></li>
-                        <li><a class="nav-link" href="news.html">News</a></li>
-                        <li><a class="nav-link" href="contact.html">Contact us</a></li>
-                    </ul>
-                </div>
-                <div class="search-box">
-                    <input type="text" class="search-txt" placeholder="Search">
-                    <a class="search-btn">
-                        <img src="images/search_icon.png" alt="#" />
+
+    <div class="topnav" id="myTopnav">
+        <div class="logo">
+
+            <!-- <img src="https://i.ibb.co/yfPMF0g/collegites.png" alt="" class="logoimg"> -->
+        </div>
+        <a href="#news">
+            <h2>collegites</h2>
+        </a>
+        <a href="#home" class="active">Home</a>
+
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <main>
+
+        <h2><span id="a1">
+                popular</span><span id="a2"> course</span>
+        </h2>
+
+        <div class="box">
+
+            <div class="box1">
+                <img class="img" src="https://www.todaysparent.com/wp-content/uploads/2020/03/fun-science-experiments-for-kids-1280x720-1000x563.jpg" alt="">
+                <div>
+                    <a href="" class="wave-btn">
+                        <span class="wave-btn__text">Button</span>
+                        <span class="wave-btn__waves"></span>
                     </a>
                 </div>
             </div>
-        </nav>
-    </header>
-
-
-    <!-- Start Banner -->
-    <div class="ulockd-home-slider">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="pogoSlider" id="js-main-slider">
-                    <div class="pogoSlider-slide" style="background-image:url(images/banner_img.png);">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="slide_text">
-                                        <h3><span span class="theme_color">You only have know one thing</span><br>you can learn anything</h3>
-                                        <h4>Free Educations</h4>
-                                        <br>
-                                        <div class="full center">
-                                            <a class="contact_bt" href="courses.html">Start a Course</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pogoSlider-slide" style="background-image:url(images/banner_img.png);">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="slide_text">
-                                        <h3><span span class="theme_color">You only have know one thing</span><br>you can learn anything</h3>
-                                        <h4>Free Educations</h4>
-                                        <br>
-                                        <div class="full center">
-                                            <a class="contact_bt" href="courses.html">Start a Course</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="box1">
+                <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0qaB6Awo_OeLphhnfHl3WxZBLG3spX167IowjgX1j6QN23nIvx1nzn6te9xD0IyI8WXg&usqp=CAU" alt="">
+                <div>
+                    <a href="" class="wave-btn">
+                        <span class="wave-btn__text">Button</span>
+                        <span class="wave-btn__waves"></span>
+                    </a>
                 </div>
-                <!-- .pogoSlider -->
             </div>
-        </div>
-    </div>
-    <!-- End Banner -->
-    <!-- ................................................................... -->
-    <div class="main">
+            <div class="box1">
+                <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJy0S8sf3bCS_Qbr-f7Lz-dXhZO48ZbN9AmQ&usqp=CAU" alt="">
+                <div>
+                    <a href="" class="wave-btn">
+                        <span class="wave-btn__text">Button</span>
+                        <span class="wave-btn__waves"></span>
+                    </a>
+                </div>
+            </div>
 
-        <div id="logo"><img src="https://i.ibb.co/yfPMF0g/collegites.png" alt="logo"></div>
+            <div class="box1">
+                <img class="img" src="https://i2.wp.com/highschool.latimes.com/wp-content/uploads/2019/02/classic-lit-.jpg?fit=1024%2C768&ssl=1" alt="">
+                <div>
+                    <a href="" class="wave-btn">
+                        <span class="wave-btn__text">Button</span>
+                        <span class="wave-btn__waves"></span>
+                    </a>
+                </div>
+            </div>
 
-        <div style="float: left; padding: 5%;">
-
-            <a href="subjects/OOPM.html">
-                <div class="button button-2">OOPM </div>
-            </a>
-            <a href="subjects/DS.html">
-                <div class="button button-2">DS</div>
-            </a>
-            <a href="subjects/DS1.html">
-                <div class="button button-2">DS1</div>
-            </a>
-            <a href="subjects/EEE.html">
-                <div class="button button-2">EEE</div>
-            </a>
-            <a href="subjects/JavaLab.html">
-                <div class="button button-2"> JAVA LAB</div>
-            </a>
 
         </div>
+    </main>
+
+    <div class="contact">
+        <h2><span id="a3">conta</span><span id="a4" ">ct</span></h2>
+        <div class="cb1 ">
+        <div class="cimg ">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqanPCVkrflVvYqvbpfOJHBT-oXBjrsEQD-g&usqp=CAU " alt=" " class="img "></div>
+            <div class="info ">
+                <input type="text "  id="name "placeholder="Your name ">
+                <input type="text "id="email " placeholder="Email address ">
+                <input type="text "  id="num " placeholder="Phone no. ">
+                <button id="send ">send</button>
+            </div>
+
+        
+</div>
     </div>
+
 </body>
 
 </html>
