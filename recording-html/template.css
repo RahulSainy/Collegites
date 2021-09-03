@@ -1,17 +1,11 @@
     * {
         margin: 0;
     }
-    /*     
-    .navbar {
-        background-color: #9fa0a1;
-        width: 100%;
-        height: 25vh;
-    } */
     
     .main {
         height: 100vh;
         width: 100%;
-        background-color: #454647;
+        background-color: black;
         margin: 0%;
     }
     
@@ -21,15 +15,12 @@
     
     .card {
         text-align: center;
-        background-color: #454647;
+        background-color: black;
         width: 37%;
         display: inline-block;
         height: 40vh;
         margin-inline: 6%;
         margin-top: 3%;
-        /* border: 0.5mm solid black; */
-        /* border-radius: 0.9em; */
-        /* box-shadow: rgb(7 31 31 / 60%) 1vw 1.2vw 6px 0px; */
         overflow: hidden;
         font-size: large;
         font-family: "Open Sans Condensed", sans-serif;
@@ -40,7 +31,6 @@
         width: 93%;
         display: inline-block;
         height: 80%;
-        /* margin-top: 0%; */
         border: 0.3mm solid rgb(5, 5, 5);
         border-radius: 0.9em;
         box-shadow: rgb(7 31 31 / 60%) 1vw 1.2vw 6px 0px;
@@ -50,10 +40,6 @@
     .imgcard:hover {
         background-color: rgb(0, 0, 0);
     }
-    /* .card:hover {
-    font-weight: 900;
-    color: coral;
-} */
     
     .imgcard iframe {
         margin: 0%;
@@ -74,7 +60,7 @@
             .main {
                 height: 85vh;
                 width: 100%;
-                background-color: rgb(67 69 70);
+                background-color: black;
                 margin: 0%;
                 overflow-y: scroll;
                 ;
