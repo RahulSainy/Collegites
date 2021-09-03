@@ -42,27 +42,6 @@ div.desc {
     justify-content: space-around;
 }
 
-#navhead {
-    font-weight: bold;
-    background: linear-gradient( 90deg, rgb(222 222 222) 0%, rgb(255 255 255) 35%, rgb(0 212 255) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-header {
-    /* z-index: 12; */
-    background-color: #010101;
-    height: 14vh;
-    width: 100%;
-    color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: flex-start;
-    justify-content: space-around;
-    overflow: hidden;
-}
-
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ rs wave btn @@@@@@@@@@@@@@@@@@@@ */
 
