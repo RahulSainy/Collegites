@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#">
+            <h7 id="navhead"> Collegites</h7>
+        </a>
+        <a href="#home" class="active">Home</a>
+        <a href="./contact.html">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <br>
+    <h1 style="color: aliceblue;float: initial;text-align: center;">Share your queries and ideas with us</h1>
+
+    <script type="text/javascript">
+        var submitted = false;
+        if ((submitted = false)) {
+            alert("thakyou");
+        }
+    </script>
+
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted) {alert('Thankyou Your Response Has Been Recorded')}"></iframe>
+
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSciJfe296YH8n3Rj5DrWz0sFNBlDvzWNElwOdJ_UVlxPT8IEQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true; this.reset()">
+        <input name="entry.1045781291" type="text" class="feedback-input" placeholder="Email" />
+        <input name="entry.1166974658" type="number" class="feedback-input" placeholder="number" />
+        <textarea name="entry.839337160" class="feedback-input" placeholder="Comment"></textarea>
+        <input type="submit" value="SUBMIT" />
+    </form>
+</body>
+
+</html>
