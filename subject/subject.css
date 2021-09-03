@@ -8,9 +8,11 @@ body {
     /* height: 100%; */
     z-index: 8;
     background-image: url(https://www.w3schools.com/about/w3codes.png);
-    background-size: cover;
-    /* position: fixed; */
     overflow-y: scroll;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -32,7 +34,7 @@ main {
     height: 100vh;
     /* margin-top: 3%; */
     text-align: center;
-    color: white;
+    color: whitesmoke;
     font-size: 4vh;
     width: 100%;
     backdrop-filter: blur(5px);
