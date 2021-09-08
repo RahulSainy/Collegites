@@ -11,139 +11,269 @@
     <script src="../js/nav.js" defer></script>
     <!-- .............. -->
     <link rel="stylesheet" href="./notes.css" />
-    <title>oopm-notes</title>
+    <title>Dcs-notes</title>
 </head>
 
 <body>
+    <!-- <div class="body"> -->
+    <!-- navigation bar  -->
     <div class="topnav" id="myTopnav">
-        <a href="collegites.tech">
+        <a href="../index.html">
             <h7 id="navhead"> Collegites</h7>
         </a>
-        <a href="collegites.tech" class="active">Home</a>
-        <a href="./contact.html">Contact</a>
-        <a href="./about.html">About</a>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../about.html">About</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
-
+    <!-- header start  -->
     <header>
         <div>
-            <img src="https://s9.gifyu.com/images/hederdesign.gif" width="100%" alt="" />
+            <img src="https://s9.gifyu.com/images/hederdesign.gif" style="width: 100%" />
         </div>
     </header>
-
+    <h1>DIGITAL CIRCUITS & SYSTEM (IT-305)</h1>
     <main>
-        <div id="container">
-            <div id="carousel">
-                <div class="p-wrapper">
-                    <section class="panel_a">
-                        <h1>rgpvonline notes all in one file</h1>
-                        <iframe src="https://mrcet.com/downloads/digital_notes/HS/OOP_10122018.pdf" width="100%" height="100%" allow="autoplay"></iframe>
-                    </section>
-                </div>
-            </div>
+        <h1 style="
+          color: white;
+          font-size: large;
+          display: grid;
+          justify-content: space-around;
+        ">
+            Choose From different sources all at one point
+        </h1>
+        <br />
+
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'tab1')">
+        Rgpv Notes
+        </button>
+            <button class="tablinks" onclick="openTab(event, 'tab2')">
+          Teacher's Notes
+        </button>
+            <button class="tablinks" onclick="openTab(event, 'tab3')">
+          GuruJiKeNotes
+        </button>
         </div>
-        <div id="container">
-            <input hidden type="radio" name="carousel-control" id="button_a" checked />
-            <input hidden type="radio" name="carousel-control" id="button_b" />
-            <input hidden type="radio" name="carousel-control" id="button_c" />
-            <input hidden type="radio" name="carousel-control" id="button_d" />
-            <input hidden type="radio" name="carousel-control" id="button_e" />
 
-            <div id="carousel">
-                <div class="p-wrapper">
-                    <section class="panel_a">
-                        <h1>Btech notes.rgpv notes unit wise</h1>
-                        <h2 class="utitle">unit 1</h2>
+        <!-- ###########################tab1############## -->
+        <div id="tab1" class="tabcontent">
+            <div class="main">
+                <div class="b1">
+                    <div class="grid-container">
+                        <h1 class="conhead">Rgpv Notes</h1>
+                        <a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21909&authkey=ANsBC5AFYKJv5Ss&em=2" target="_blank">
 
-                        <iframe src="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21909&authkey=ANsBC5AFYKJv5Ss&em=2" width="100%" height="100%" allow="autoplay"></iframe>
-                    </section>
-
-                    <section class="panel_b">
-                        <h2 class="utitle">unit 2</h2>
-                        <iframe src="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21907&authkey=ALBM5Ce1nFFN0ts&em=2" width="100%" height="100%" allow="autoplay"></iframe>
-                    </section>
-
-                    <section class="panel_c">
-                        <h2 class="utitle">unit 3</h2>
-                        <iframe src="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21906&authkey=ANUl7WFgkr5yqZs&em=2" width="100%" height="100%" allow="autoplay"></iframe>
-                    </section>
-
-                    <section class="panel_d">
-                        <h2 class="utitle">unit 4</h2>
-                        <iframe src="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21903&authkey=AE8c6iyO5Nr-UUs&em=2" width="100%" height="100%" allow="autoplay"></iframe>
-                    </section>
-                    <section class="panel_e">
-                        <h2 class="utitle">unit 5</h2>
-                        <iframe src="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21905&authkey=AExRfBAS-n9vAFI&em=2" width="100%" height="100%" allow="autoplay"></iframe>
-                    </section>
+                            <div class="grid-item">
+                                <span>UNIT-1</span>Number systems and logic gates:
+                            </div>
+                        </a>
+                        <a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21907&authkey=ALBM5Ce1nFFN0ts&em=2" target="_blank">
+                            <div class="grid-item">
+                                <span>UNIT-2</span>Combinational circuits:
+                            </div>
+                        </a>
+                        <a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21906&authkey=ANUl7WFgkr5yqZs&em=2" target="_blank">
+                            <div class="grid-item">
+                                <span>UNIT-3</span>Sequential circuits:
+                            </div>
+                        </a>
+                        <a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21903&authkey=AE8c6iyO5Nr-UUs&em=2" target="_blank">
+                            <div class="grid-item">
+                                <span>UNIT-4</span>Digital logic families:
+                            </div>
+                        </a>
+                        <a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21905&authkey=AExRfBAS-n9vAFI&em=2" target="_blank">
+                            <div class="grid-item">
+                                <span>UNIT-5</span>Clocks and timing circuits:
+                            </div>
+                        </a>
+                    </div>
+                    <!-- @@@@@@@@@@@grid-container@@@@@@@@@@@@ -->
                 </div>
-                <!-- // .p-wrapper -->
+                <!--@@@@@@@@@@@@@@b1@@@@@@@@@@@@@@@@@@@@@-->
+
+                <div class="b-2">
+                    <div class="b2">
+                        <a href="https://www.nta.ac.in/abhyas"><img src="https://pbs.twimg.com/profile_images/1016949826825510914/6fILCO6D_400x400.jpg" alt="" />
+                            <p>
+                                National Test Abhyas <br /><br /><i>
+                    test your limits , push them , try harder</i
+                  >
+                </p>
+              </a>
             </div>
-            <!-- // #carousel -->
-
-            <div id="navigation">
-                <label for="button_a" class="label_a"> <span>1</span> </label>
-                <label for="button_b" class="label_b"> <span>2</span> </label>
-                <label for="button_c" class="label_c"> <span>3</span> </label>
-                <label for="button_d" class="label_d"> <span>4</span> </label>
-                <label for="button_e" class="label_e"> <span>5</span> </label>
-            </div>
-            <!-- // #navigation -->
-        </div>
-        <!-- // #container -->
-
-        <!-- <div id="container">
-
-
-            <input hidden type="radio" name="carousel-control" id="button_e" checked/>
-            <input hidden type="radio" name="carousel-control" id="button_f" />
-            <input hidden type="radio" name="carousel-control" id="button_g" />
-            <input hidden type="radio" name="carousel-control" id="button_h" />
-
-
-            <div id="carousel">
-                <div class="p-wrapper">
-
-                    <section class="panel_e">
-                        <h1>Basic Vertical CSS Carousel Demo</h1>
-
-                        <iframe src="https://drive.google.com/file/d/1Wp7sE8NSAUo9xyaIR_cuiptto2Umyc78/preview" width="100%" height="100%" allow="autoplay"></iframe>
-                    </section>
-
-                    <section class="panel_f">
-                        <h2 class="utitle">Panel b</h2>
-                        <iframe src="https://drive.google.com/file/d/1Wp7sE8NSAUo9xyaIR_cuiptto2Umyc78/preview" width="100%" height="100%" allow="autoplay"></iframe>
-                    </section>
-
-                    <section class="panel_g">
-                        <h2 class="utitle">Panel c</h2>
-
-                    </section>
-
-                    <section class="panel_h">
-                        <h2 class="utitle">Panel d</h2>
-
-                    </section>
-
+            <div class="b2">
+              <a href="https://collegites.tech/?i=1">
+                <img src="https://i.ibb.co/yfPMF0g/collegites.png" alt="" />
+                <p>
+                  Collegites<br /><br /><i>
+                    website for Engineering students
+                  </i>
+                            </p>
+                        </a>
+                    </div>
                 </div>
-                // .p-wrapper
+                <!--@@@@@@@@@@@@@@b-2@@@@@@@@@@-->
             </div>
-            // #carousel
-
-
-            <div id="navigation">
-                <label for="button_e" class="label_e"> <span>1</span> </label>
-                <label for="button_f" class="label_f"> <span>2</span> </label>
-                <label for="button_g" class="label_g"> <span>3</span> </label>
-                <label for="button_h" class="label_h"> <span>4</span> </label>
-            </div>
-            // #navigation
-
-
+            <!--@@@@@@@@@@@@@@main@@@@@@@@@@@@@@@@@@@@@-->
         </div>
-        // #container -->
+        <!-- ########################tab2################# -->
+
+        <div id="tab2" class="tabcontent">
+            <div class="main">
+                <div class="b1">
+                    <div class="grid-container">
+                        <h1 class="conhead">Teachers Notes</h1>
+                        <div class="dropdown">
+                            <button class="dropbtn grid-item">
+                  <span>UNIT-1</span>Lorem ipsum dolor sit.
+                </button>
+                            <div class="dropdown-content">
+                                <a href="#">Lecture 1</a>
+                                <a href="#">Lecture 2</a>
+                                <a href="#">Lecture 3</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn grid-item">
+                  <span>UNIT-2</span>Lorem ipsum dolor sit.
+                </button>
+                            <div class="dropdown-content">
+                                <a href="#">Lecture 1</a>
+                                <a href="#">Lecture 2</a>
+                                <a href="#">Lecture 3</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn grid-item">
+                  <span>UNIT-3</span>Lorem ipsum dolor sit.
+                </button>
+                            <div class="dropdown-content">
+                                <a href="">Lecture 1</a>
+                                <a href="#">Lecture 2</a>
+                                <a href="#">Lecture 3</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn grid-item">
+                  <span>UNIT-4</span>Lorem ipsum dolor sit.
+                </button>
+                            <div class="dropdown-content">
+                                <a href="https://facebook.com">Lecture 1</a>
+                                <a href="#">Lecture 2</a>
+                                <a href="#">Lecture 3</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn grid-item">
+                  <span>UNIT-5</span>Lorem ipsum dolor sit.
+                </button>
+                            <div class="dropdown-content">
+                                <a href="#">Lecture 1</a>
+                                <a href="#">Lecture 2</a>
+                                <a href="#">Lecture 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- @@@@@@@@@@@grid-container@@@@@@@@@@@@ -->
+                </div>
+                <!--@@@@@@@@@@@@@@b1@@@@@@@@@@@@@@@@@@@@@-->
+
+                <div class="b-2">
+                    <div class="b2">
+                        <a href="https://collegites.tech/?i=1">
+                            <img src="https://www.iconsdb.com/icons/preview/red/start-xxl.png" alt="" />
+                            <p>
+                                Video Lectures <br /><br /><i>
+                    Youtube And Premium Video Lectues (For Free)</i
+                  >
+                </p>
+              </a>
+            </div>
+            <div class="b2">
+              <a href="https://collegites.tech/?i=1">
+                <img src="https://i.ibb.co/yfPMF0g/collegites.png" alt="" />
+                <p>
+                  Collegites<br /><br /><i>
+                    website for Engineering students
+                  </i>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <!--@@@@@@@@@@@@@@b-2@@@@@@@@@@-->
+            </div>
+            <!--@@@@@@@@@@@@@@main@@@@@@@@@@@@@@@@@@@@@-->
+        </div>
+        <!-- ############################tab3########### -->
+        <div id="tab3" class="tabcontent">
+            <div class="main">
+                <div class="b1">
+                    <div class="grid-container">
+                        <h1 class="conhead">Guru Ji Ke Notes Notes</h1>
+                        <a href="https://onedrive.live.com/embed?cid=77F1DBE59B64F8CC&resid=77F1DBE59B64F8CC%21224&authkey=AMP8gG8LWoPWOJs&em=2" target="_blank">
+
+                            <div class="grid-item">
+                                <span>UNIT-1</span>Number systems and logic gates:
+                            </div>
+                        </a>
+                        <a href="https://onedrive.live.com/embed?cid=77F1DBE59B64F8CC&resid=77F1DBE59B64F8CC%21225&authkey=ANJvdsu0Uv6aHS4&em=2" target="_blank">
+                            <div class="grid-item">
+                                <span>UNIT-2</span>Combinational circuits:
+                            </div>
+                        </a>
+                        <a href="https://onedrive.live.com/embed?cid=77F1DBE59B64F8CC&resid=77F1DBE59B64F8CC%21228&authkey=APvl5DKK0eTsW6Q&em=2" target="_blank">
+                            <div class="grid-item">
+                                <span>UNIT-3</span>Sequential circuits:
+                            </div>
+                        </a>
+                        <a href="https://onedrive.live.com/embed?cid=77F1DBE59B64F8CC&resid=77F1DBE59B64F8CC%21227&authkey=AH_bEUCMGu6igl0&em=2" target="_blank">
+                            <div class="grid-item">
+                                <span>UNIT-4</span>Digital logic families:
+                            </div>
+                        </a>
+                        <a href="https://onedrive.live.com/embed?cid=77F1DBE59B64F8CC&resid=77F1DBE59B64F8CC%21226&authkey=AE8HgHREDeiOJyw&em=2" target="_blank">
+                            <div class="grid-item">
+                                <span>UNIT-5</span>Clocks and timing circuits:
+                            </div>
+                        </a>
+                    </div>
+                    <!-- @@@@@@@@@@@grid-container@@@@@@@@@@@@ -->
+                </div>
+                <!--@@@@@@@@@@@@@@b1@@@@@@@@@@@@@@@@@@@@@-->
+
+                <div class="b-2">
+                    <div class="b2">
+                        <a href="https://www.nta.ac.in/abhyas"><img src="https://pbs.twimg.com/profile_images/1016949826825510914/6fILCO6D_400x400.jpg" alt="" />
+                            <p>
+                                National Test Abhyas <br /><br /><i>
+                    test your limits , push them , try harder</i
+                  >
+                </p>
+              </a>
+            </div>
+            <div class="b2">
+              <a href="https://collegites.tech/?i=1">
+                <img src="https://i.ibb.co/yfPMF0g/collegites.png" alt="" />
+                <p>
+                  Collegites<br /><br /><i>
+                    website for Engineering students
+                  </i>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <!--@@@@@@@@@@@@@@b-2@@@@@@@@@@-->
+            </div>
+            <!--@@@@@@@@@@@@@@main@@@@@@@@@@@@@@@@@@@@@-->
+        </div>
     </main>
 </body>
 
