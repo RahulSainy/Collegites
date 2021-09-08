@@ -4,8 +4,6 @@
 }
 
 body {
-    /* width: 100%; */
-    /* height: 100%; */
     z-index: 8;
     background-image: url(https://www.w3schools.com/about/w3codes.png);
     overflow-y: scroll;
@@ -16,7 +14,6 @@ body {
 }
 
 header {
-    /* z-index: 12; */
     background-color: #010101;
     height: 14vh;
     width: 100%;
@@ -32,7 +29,6 @@ header {
 main {
     margin-top: 5%;
     height: 100vh;
-    /* margin-top: 3%; */
     text-align: center;
     color: whitesmoke;
     font-size: 4vh;
@@ -52,16 +48,10 @@ main {
 }
 
 .xbutton {
-    /* box-sizing: border-box; */
     margin: 3% 6% 3% 6%;
-    /* padding: 4% 8% 4% 8%; */
     display: flex;
     width: 30%;
-    /* height: 19vh; */
     height: 186px;
-    font-size: 5vh;
-    border: none;
-    background-color: violet;
     border-radius: 0.1em;
     flex-direction: column;
     align-items: center;
@@ -70,29 +60,29 @@ main {
 }
 
 #color1 {
-    /* background-color: rgba(33, 190, 190, 0.89); */
+   
     background-image: url(https://www.cpp.edu/mediavision/img/classrecording-banner.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 #color2 {
-    background-color: rgba(13, 211, 76, 0.89);
+  
     background-image: url(https://s.yimg.com/os/creatr-uploaded-images/2021-06/5b6fbc60-cb00-11eb-bf54-8215791fe4bd);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    h
+    
 }
 
 #color3 {
-    background-color: rgba(235, 97, 235, 0.89);
+  
     background-image: url(https://clientengagementacademy.com/wp-content/uploads/2021/05/VIDEO.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 #color4 {
-    background-color: rgba(0, 158, 231, 0.89);
+  
     background-image: url(https://i.ibb.co/hXsXRsW/Books-And-Course.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -103,8 +93,6 @@ main {
         height: 14vh;
     }
     header img {
-        /* width: 120%; */
-        /* height: fit-content; */
         background-size: contain;
     }
     main {
@@ -121,20 +109,9 @@ main {
         justify-content: space-around;
     }
     .xbutton {
-        display: flex;
         margin: 3% 0% 3% 0%;
-        /* padding: 4% 12% 4% 12%; */
-        font-size: 5vh;
         width: 88%;
-        /* height: 15vh; */
         height: 186px;
-        border: none;
-        background-color: violet;
         border-radius: 0.1em;
-        /* height: 9vh; */
-        flex-direction: column;
-        align-items: center;
-        align-content: space-around;
-        justify-content: space-around;
     }
 }
