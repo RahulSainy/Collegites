@@ -20,9 +20,7 @@ body {
     background-color: black;
 }
 
-
 /* @@@@@@@@@@@ grid@@@@@@@@@@@@@@@@@@@@ */
-
 
 .main {
     background-color: whitesmoke;
@@ -31,11 +29,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 }
 
 .grid-container {
-    margin:4% 3% 0% 1%;
+    margin: 4% 3% 0% 1%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: (repeat(5 1fr));
@@ -59,22 +56,23 @@ body {
     align-items: center;
     color: rgb(87, 87, 87);
 }
-.grid-item span{
-    margin:0% 4% 0% 2%;
+
+.grid-item span {
+    margin: 0% 4% 0% 2%;
 }
 
-
-.b1{
+.b1 {
     display: inline-block;
     width: 60%;
 }
-.b-2{
+
+.b-2 {
     display: inline-block;
     width: 30%;
     overflow: hidden;
 }
 
-.b-2 a{
+.b-2 a {
     text-decoration: none;
     color: black;
 }
@@ -92,7 +90,6 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 500;
     margin: 4% 2% 2% 2%;
-
 }
 
 .b2 img {
@@ -101,47 +98,48 @@ body {
     clip-path: circle(50% at 50% 50%);
 }
 
-
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
-  }
-  
-  /* Style the buttons inside the tab */
-  .tab button {
+}
+
+/* Style the buttons inside the tab */
+
+.tab button {
     background-color: inherit;
     float: left;
     border: none;
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
-  }
-  
-  /* Change background color of buttons on hover */
-  .tab button:hover {
+}
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
     background-color: #ddd;
-  }
-  
-  /* Create an active/current tablink class */
-  .tab button.active {
+}
+
+/* Create an active/current tablink class */
+
+.tab button.active {
     background-color: #ccc;
-  }
-  
-  /* Style the tab content */
-  .tabcontent {
+}
+
+/* Style the tab content */
+
+.tabcontent {
     display: none;
     /* padding: 6px 12px; */
     border: 1px solid #ccc;
     border-top: none;
-  }
-
- 
+}
 
 /* ##############################################################  */
 
 .dropdown .dropbtn {
-    outline: none; 
+    outline: none;
 }
 
 .dropdown-content {
@@ -170,11 +168,15 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-  /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
-@media screen and (max-width:650px) {
-    body {
-        width: 100%;
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@media screen and (max-width:800px) {
+    .b-2 {
+        display: none;
     }
-   
+    .b1 {
+        width: 97%;
+        margin: 0% 0% 0% 3%;
+    }
 }
