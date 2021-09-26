@@ -4,7 +4,8 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
 
 body {
     margin: 0;
-    background-color: black;
+    background: url('https://images.pexels.com/photos/884788/pexels-photo-884788.jpeg');
+    background-size: cover;
     padding: 0%;
 }
 
@@ -50,7 +51,6 @@ div.desc {
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ rs wave btn @@@@@@@@@@@@@@@@@@@@ */
 
 .wrapper {
-    background-color: #000;
     width: 100%;
     height: 100%;
 }

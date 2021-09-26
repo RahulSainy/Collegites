@@ -7,24 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contact</title>
     <link rel="stylesheet" href="./css/contact.css" />
-    <link rel="stylesheet" href="./css/nav.css" />
+    <!-- nav code  -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function() {
+            $("#nav-placeholder").load("../nav/nav.html");
+        });
+    </script>
+    <!-- .............. -->
 
 </head>
 
 <body>
-
-    <div class="topnav" id="myTopnav">
-        <a href="./index.html">
-            <h7 id="navhead"> Collegites</h7>
-        </a>
-        <a href="./index.html" class="active">Home</a>
-        <a href="./contact.html">Contact</a>
-        <a href="./about.html">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
+    <div id="nav-placeholder">
     </div>
-    <br>
+
     <h1 style="color: aliceblue;float: initial;text-align: center;">Share your queries and ideas with us</h1>
 
     <script type="text/javascript">
