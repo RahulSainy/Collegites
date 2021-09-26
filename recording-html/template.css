@@ -1,81 +1,20 @@
     * {
         margin: 0;
     }
-body{
-    background-color: black;
-}   
-    .main {
+    
+    body {
+        background-color: black;
+        overflow: hidden;
+    }
+    
+    iframe {
+        display: block;
+        /* iframes are inline by default */
+        background: url('https://images.pexels.com/photos/5208310/pexels-photo-5208310.jpeg?');
+        border: none;
+        /* Reset default border */
         height: 100vh;
+        /* Viewport-relative units */
         width: 100%;
-        background-color: black;
-        margin: 0%;
-    }
-    
-    .heading {
-        color: antiquewhite;
-    }
-    
-    .card {
-        text-align: center;
-        background-color: black;
-        width: 37%;
-        display: inline-block;
-        height: 40vh;
-        margin-inline: 6%;
-        margin-top: 3%;
-        overflow: hidden;
-        font-size: large;
-        font-family: "Open Sans Condensed", sans-serif;
-    }
-    
-    .imgcard {
-        background-color: rgb(251, 251, 255);
-        width: 93%;
-        display: inline-block;
-        height: 80%;
-        border: 0.3mm solid rgb(5, 5, 5);
-        border-radius: 0.9em;
-        box-shadow: rgb(7 31 31 / 60%) 1vw 1.2vw 6px 0px;
-        overflow: hidden;
-    }
-    
-    .imgcard:hover {
-        background-color: rgb(0, 0, 0);
-    }
-    
-    .imgcard iframe {
-        margin: 0%;
-        padding: 0%;
-        width: 101%;
-        height: 102%;
-        background-color: black;
-    }
-    
-    @media screen and (max-width: 780px) {
-        .card {
-            height: 22vh;
-        }
-        @media screen and (max-width: 750px) {
-            .navbar {
-                height: 15vh;
-            }
-            .main {
-                height: 85vh;
-                width: 100%;
-                background-color: black;
-                margin: 0%;
-                overflow-y: scroll;
-                ;
-            }
-            .imgcard {
-                height: 66%;
-            }
-            .card {
-                margin-top: 3%;
-                width: 88%;
-                margin-right: 0%;
-                margin-left: 6%;
-                height: 35vh;
-            }
-        }
+        background-size: cover;
     }
