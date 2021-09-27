@@ -31,11 +31,6 @@ div.gallery {
     width: 480px;
 }
 
-div.gallery:hover {
-    border: 1px solid #777;
-    border-radius: 3%;
-}
-
 div.gallery img {
     width: 100%;
     height: auto;

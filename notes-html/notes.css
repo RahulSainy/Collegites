@@ -49,7 +49,6 @@ body {
 }
 
 .grid-item {
-    font-size: 1.2em;
     background-color: white;
     border: solid 0.1px rgba(124, 124, 124, 0.452);
     border-radius: 1em;
