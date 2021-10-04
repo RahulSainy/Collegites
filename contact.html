@@ -11,7 +11,8 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script>
         $(function() {
-            $("#nav-placeholder").load("../nav/nav.html");
+                   $("#nav-placeholder").load("../nav/nav.html");
+            $("#footer-placeholder").load("../nav/footer.html");
         });
     </script>
     <!-- .............. -->
@@ -28,9 +29,9 @@
         // ##############################################
         document.getElementById("formId").addEventListener("submit", handleSubmit);
 
-
         // .....................................................
     </script>
+
     <form id="formId" action="https://docs.google.com/forms/d/e/1FAIpQLSciJfe296YH8n3Rj5DrWz0sFNBlDvzWNElwOdJ_UVlxPT8IEQ/formResponse">
 
         <input name="entry.1045781291" type="text" class="feedback-input" placeholder="Email" />
@@ -39,7 +40,8 @@
         <input type="submit" value="Submit" />
     </form>
     <!-- .......................... -->
-
+    <footer id="footer-placeholder">
+    </footer>
 </body>
 
 </html>
