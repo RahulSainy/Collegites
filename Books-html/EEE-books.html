@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="books.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("../nav/nav.html");
+            $("#footer-placeholder").load("../nav/footer.html");
+        });
+    </script>
+    <title>EEE Books And Courses </title>
+</head>
+
+<body>
+    <div id="nav-placeholder">
+    </div>
+
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-10">
+
+        <div class="col">
+            <div class="card text-white bg-black mb-3" style="width: 18rem;">
+                <img src="https://mypustak-6.s3.amazonaws.com/books/medium/0302228001504683224.jpg" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">BOOK</h5>
+                    <p class="card-text">	
+                        Energy, Environment Ecology & Society By: Surinder Deswal</p>
+
+                    <a target="blank" href="https://docplayer.net/storage/83/88677954/1633623452/qMiRQFK5ZywnAPengiwqXQ/88677954.pdf"
+                        class="btn btn-primary">download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-white bg-black mb-3" style="width: 18rem;">
+                <img src="http://img.youtube.com/vi/pc3D1a8vAMw/hqdefault.jpg" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Environmental Science and Engineering</h5>
+                    <p class="card-text">Environmental Science and Engineering HINDI
+                         </p>
+
+                    <a target="blank" href="https://www.youtube.com/embed/pc3D1a8vAMw?list=PLUdUqUu9KRUJ_uMXxpalSh7Omj8y3xDmv"
+                        target="blank"class="btn btn-primary">Watch</a>
+                    <a target="blank" href="https://www.ssyoutube.com/embed/pc3D1a8vAMw?list=PLUdUqUu9KRUJ_uMXxpalSh7Omj8y3xDmv"
+                        class="btn btn-primary">download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer-placeholder">
+    </footer>
+</body>
+
+</html>

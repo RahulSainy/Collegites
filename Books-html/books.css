@@ -1,0 +1,22 @@
+    * {
+        margin: 0;
+    }
+    
+    body {
+        background: url('https://images.pexels.com/photos/4552688/pexels-photo-4552688.jpeg');
+        padding: 0;
+        margin: 0;
+    }
+.card{
+    margin-left:5%;
+
+
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-end;
+
+}
