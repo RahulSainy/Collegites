@@ -87,10 +87,10 @@ main {
     background-repeat: no-repeat;
 }
 #color5 {
-  
-    background-image: url(https://i.ibb.co/7NnpSc5);
+  background-image: url(https://i.ibb.co/hcKN2tD/Assignment.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    width: 70%;
 }
 
 @media screen and (max-width:650px) {
@@ -118,5 +118,8 @@ main {
         width: 88%;
         height: 186px;
         border-radius: 0.1em;
+    }
+    .color{
+        width:100%;
     }
 }
