@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- nav code  -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function() {
+
+                    $("#nav-placeholder").load("../nav/nav.html");
+            $("#footer-placeholder").load("../nav/footer.html");        });
+    </script>
+    <!-- .............. -->
+    <link rel="stylesheet" href="../videos-html/videos.css" />
+
+    <title>Dcs Assignment</title>
+    <style>
+      .container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding-top: 56.25%; /* 16:9 Aspect Ratio */
+      }
+      
+      .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+      </style>
+</head>
+
+<body>
+    <!-- .....................nav..s.t.a.r.t...................................  -->
+    <div id="nav-placeholder">
+    </div>
+    <div>
+        <img src="https://s9.gifyu.com/images/hederdesign.gif" width="100%" alt="" />
+    </div>
+    <!-- .....................nav..e.n.d.....................................  -->
+
+    <h1>DATA STRUCTURE (IT-303)</h1>
+    <div class="main">
+        <div class="b1">
+            <div class="grid-container">
+                <h1 class="conhead">GET NOTES , CLASS RECORDING , BOOKS AND MUCH MORE</h1>
+                <!-- _________________________unit 1______________________________ -->
+                <div class="container"> 
+                  <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1OpibQJQ1gsVNjl6fLmvsFajY9GBs1vcT/view"></iframe>
+                </div>
+                <!-- ................................................... -->
+               
+        </div>
+        <!-- @@@@@@@@@@@grid-container@@@@@@@@@@@@ -->
+      </div>
+      <br><br>
+    </div>
+      <footer id="footer-placeholder">
+    </footer>
+</body>
+</html>
