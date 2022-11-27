@@ -2,6 +2,9 @@
 
 Collegites is an Edtech & Ecommerece Platform commencing all requirements of college students from books, courses, notes, assignments, and projects to all kinds of stationery items required by students.
 
+## DEMO 
+## <a href="https://collegitestech.firebaseapp.com/">https://collegitestech.firebaseapp.com/</a>
+
 ## Installation
 
 This project was generated with Angular CLI version 11.0.0.
